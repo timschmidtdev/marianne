@@ -21,9 +21,16 @@ a:active {
   text-decoration: underline;
 }
 
-.title {
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   position: absolute;
   width: 100%;
+}
+
+.title {
+  width: 300px;
 }
 
 section {
@@ -79,6 +86,7 @@ img {
   .title {
     padding-top: 0.5rem;
     padding-left: 50px;
+    width: 100%;
   }
 
   section {

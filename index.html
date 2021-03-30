@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>Marianne Barcellona | Painting &amp; Photography</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main-style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  </head>
+  <body>
+    <h1 class="title">MARIANNE BARCELLONA</h1>
+    <section class="art">
+      <h3 id="art-title">
+        <a href="https://www.barcellonaart.com/">ART WORK</a>
+      </h3>
+      <a href="https://www.barcellonaart.com/">
+        <div id="art-slider">
+          <img src="images/sliders/art/art-001.jpg" />
+          <img src="images/sliders/art/art-002.jpg" />
+          <img src="images/sliders/art/art-003.jpg" />
+          <img src="images/sliders/art/art-004.jpg" />
+          <img src="images/sliders/art/art-005.jpg" />
+        </div>
+      </a>
+    </section>
+    <section class="photo">
+      <h3 id="photo-title">
+        <a href="http://www.mariannebarcellona.com/barcellonaphoto/">PHOTOGRAPHY</h3></a>
+        <a href="http://www.mariannebarcellona.com/barcellonaphoto/">
+        <div id="photo-slider">
+          <img src="images/sliders/photo/photo-001.jpg" />
+          <img src="images/sliders/photo/photo-002.jpg" />
+          <img src="images/sliders/photo/photo-003.jpg" />
+          <img src="images/sliders/photo/photo-004.jpg" />
+        </div>
+      </a>
+    </section>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#art-slider').slick({ infinite: true, arrows: false })
+        $('#photo-slider').slick({ infinite: true, arrows: false })
+      })
+    </script>
+  </body>
+</html>
